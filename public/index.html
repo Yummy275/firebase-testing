@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: 'AIzaSyA5GrABAvpH0Mx0OhBuMPPJCjA8qvoKJZk',
+                authDomain: 'fir-demo-3dbe5.firebaseapp.com',
+                projectId: 'fir-demo-3dbe5',
+                storageBucket: 'fir-demo-3dbe5.appspot.com',
+                messagingSenderId: '298274203958',
+                appId: '1:298274203958:web:8b61ca225e6db7c3aeeb97',
+                measurementId: 'G-T98LPSF5SN',
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+        </script>
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <h1>Firebase basics</h1>
+        <button type="button" class="btn btn-primary">Hello</button>
+    </body>
+</html>
